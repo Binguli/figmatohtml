@@ -1,0 +1,195 @@
+body{
+     font-family: "Manrope", sans-serif;
+     -webkit-font-smoothing: antialiased; /* WebKit tabanlı tarayıcılarda yazıları yumuşatır */
+     -moz-osx-font-smoothing: grayscale;  /* MacOS'ta yazıları grayscale ile render eder */
+     overflow: hidden;
+     display: flex;
+     margin: 0px;
+     padding: 0px;
+}
+
+ #Giriş-yap{
+     outline: none;
+     display: inline-flex;
+     padding: 18px 35px;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+     border-radius: 10px;
+     background: #09A334;
+     width: 412px;
+     height: 57px;
+     border: none; 
+     margin-top: 20px;
+} 
+
+ #button-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800; 
+    font-size: 16px;
+    color: #FFF;
+    text-align: center;
+    line-height: 21px; 
+} 
+
+#mail{
+     display: flex;
+     width: 372px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 20px;
+     border-radius: 10px;
+     border: 1px solid #EFEFEF;
+     height: 57px;
+     padding: 0px 20px;
+     margin-bottom: 20px;
+}
+
+#mail::placeholder{
+     color: #5F7263;
+     font-variant-numeric: lining-nums proportional-nums;
+     font-family: 'Manrope', sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 21px; /* 131.25% */
+    
+}
+
+#sifre{
+     display: flex;
+     width: 372px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 20px;
+     border-radius: 10px;
+     border: 1px solid #EFEFEF;
+     height: 57px;
+     padding: 0px 20px;
+     margin-bottom: 20px;
+     
+}
+
+#sifre::placeholder{
+     color: #5F7263;
+     font-variant-numeric: lining-nums proportional-nums;
+     font-family: 'Manrope', sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 21px; /* 131.25% */
+    
+}
+
+#Google{
+     outline: none;
+     display: inline-flex;
+     padding: 18px 35px;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+     border-radius: 10px;
+     background:#FFF;
+     width: 412px;
+     height: 57px;
+     border: 1px solid #EFEFEF;
+} 
+
+ #Google-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800; 
+    font-size: 16px;
+    color: #2A362D;
+    text-align: center;
+    line-height: 21px; 
+    padding: 0px;
+} 
+
+#google-img{
+     margin:5px;
+}
+
+#yd{
+     margin: 20px 0px;
+}
+
+#sifremi-unuttum{
+     color: #09A334;
+     text-align: right; 
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     text-decoration: none;
+     margin-left: 285px;
+}
+
+#kayitli{
+     color: #5F7263;
+     font-variant-numeric: lining-nums proportional-nums;
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 21px; /* 131.25% */
+}
+
+#hemen-tikla{
+     color: #09A334;
+     font-variant-numeric: lining-nums proportional-nums;
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 21px;
+     text-decoration: none;
+}
+
+#left-side{
+     padding: 220px 274px 220px 274px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     width: 412px;
+     height: auto;
+}
+
+#yasu{
+     color: #09A334;
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin-top: 0px;
+     margin-bottom: 5px;
+}
+
+#giris-text{
+     color: #2A362D;
+     font-family: Manrope;
+     font-size: 44px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin: 0px;
+}
+
+#description{
+     width: 400px;
+     color: #5F7263;
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 29px; /* 181.25% */
+     margin-bottom: 65px;
+     margin-top: 11px;
+}
+
+#right-side{
+     width: 960px;
+     height: auto;
+     flex-shrink: 0;
+}
